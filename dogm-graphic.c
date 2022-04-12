@@ -233,8 +233,8 @@ void lcd_clear_area(uint8_t pages, uint8_t columns, uint8_t style) {
  * pages         - height of area in pages
  * columns       - width of area in pixels
  * style         - style modifier
- * col           - column of upper left corner
  * page          - page of upper left corner
+ * col           - column of upper left corner
  * Cursor is moved to start of area after clear
  */
 void lcd_clear_area_xy(uint8_t pages, uint8_t columns, uint8_t style, uint8_t page, uint8_t col) {
